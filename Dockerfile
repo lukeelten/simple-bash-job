@@ -2,6 +2,6 @@ FROM centos:7
 
 WORKDIR /
 
-COPY start.sh .
+COPY *.sh /
 
 ENTRYPOINT [ "/start.sh" ]
